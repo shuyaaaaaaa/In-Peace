@@ -140,7 +140,7 @@ useEffect(() => {
       
 
   const checkForToxicity = async (text) => {
-    const apiKey = "AIzaSyBPeC_yP-F5iUVzssFdgGbDEeCQS0Q3VY0";
+    const apiKey = "";
 
     try {
         const response = await fetch('https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze?key=' + apiKey, {
